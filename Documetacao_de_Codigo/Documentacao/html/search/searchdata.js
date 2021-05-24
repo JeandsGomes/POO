@@ -1,10 +1,10 @@
 var indexSectionsWithContent =
 {
-  0: "_emt",
+  0: "_et",
   1: "e",
   2: "t",
   3: "t",
-  4: "_mt"
+  4: "_t"
 };
 
 var indexSectionNames =
@@ -18,10 +18,10 @@ var indexSectionNames =
 
 var indexSectionLabels =
 {
-  0: "All",
+  0: "Todos",
   1: "Classes",
   2: "Namespaces",
-  3: "Files",
-  4: "Functions"
+  3: "Arquivos",
+  4: "Funções"
 };
 
