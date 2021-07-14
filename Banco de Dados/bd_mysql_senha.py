@@ -10,7 +10,7 @@ senha = 'jeands'
 email = 'jeands@gmail.com'
 
 cursor.execute(sql)
-#cursor.execute('INSERT INTO usuarios_senha (nome, senha, email) VALUES (%s,MD5(%s),%s)',(nome,senha,email))
+cursor.execute('INSERT INTO usuarios_senha (nome, senha, email) VALUES (%s,MD5(%s),%s)',(nome,senha,email))
 
 print(cursor.execute('SELECT * FROM usuarios_senha WHERE nome= %s AND senha=MD5(%s)',(nome,senha)))
 
